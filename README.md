@@ -8,7 +8,7 @@ Assistente local de e-mail para Windows — piloto experimental.
 
 Este repositório é exclusivo para instaladores, instruções e licenças de terceiros. Não contém código privado, credenciais OAuth, tokens nem mensagens de usuários.
 
-**O primeiro download ainda está em preparação.** A existência deste repositório não significa que haja uma versão liberada ou aprovada para uso comercial.
+**[Baixar o piloto 0.5 gratuito](https://github.com/Clarki7/lume-mail-downloads/releases/tag/v0.5.0-pilot)** — instalador, instruções e licenças. Versão experimental, sem liberação comercial. Comece pelos exemplos fictícios e não habilite envio.
 
 ## O que o piloto faz
 
