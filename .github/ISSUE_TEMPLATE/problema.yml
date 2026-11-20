@@ -1,0 +1,45 @@
+name: 🐞 Relatar problema
+description: Algo não funcionou como esperado no piloto do Lume Mail
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por ajudar a melhorar o Lume Mail!
+        **⚠️ Não cole senhas, tokens, arquivos de cliente OAuth nem e-mails reais.** Use só exemplos fictícios.
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do Lume Mail
+      placeholder: "0.5.0-pilot"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Versão do Windows
+      placeholder: "Windows 11 23H2"
+    validations:
+      required: true
+  - type: textarea
+    id: oque
+    attributes:
+      label: O que aconteceu?
+      description: Descreva o problema e o que você esperava que acontecesse.
+    validations:
+      required: true
+  - type: textarea
+    id: passos
+    attributes:
+      label: Passos para reproduzir
+      placeholder: |
+        1. Abri o Lume Mail
+        2. Cliquei em...
+        3. Apareceu o erro...
+  - type: checkboxes
+    id: privacidade
+    attributes:
+      label: Confirmação
+      options:
+        - label: Confirmo que não incluí senhas, tokens nem dados pessoais reais neste relato.
+          required: true
